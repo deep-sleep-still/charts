@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <Chart />
   </div>
 </template>
+
+<script>
+import Chart from "@/components/HelloFuck.vue";
+export default {
+  name: "",
+  components: {
+    Chart,
+  },
+};
+</script>
+
+<style lang='less' scoped>
+</style>
